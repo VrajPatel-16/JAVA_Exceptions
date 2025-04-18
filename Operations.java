@@ -36,3 +36,8 @@ public class Operations {
         }
         return a / b;
     }
+
+    // Square of a number
+    public double square(Double a) {
+        return a * a;
+    }
