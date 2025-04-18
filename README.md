@@ -17,7 +17,7 @@ The program is designed to handle various exceptions effectively, ensuring smoot
 
 ---
 
-## 🛠 File Structure
+##  File Structure
 
 ### 1. **Main.java**
    - **Purpose:** Entry point for the program, interacting with the user, and displaying the menu of operations.
