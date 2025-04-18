@@ -25,3 +25,14 @@ public class Operations {
         }
         return a * b;
     }
+
+    // Division with zero and size checks
+    public double divide(Double a, Double b) {
+        if (b == 0) {
+            throw new ArithmeticException("Cannot divide by zero.");
+        }
+        if (a > 1e6 || b > 1e6) {
+            throw new IllegalArgumentException("One of the numbers is too large for division.");
+        }
+        return a / b;
+    }
