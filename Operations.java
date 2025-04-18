@@ -46,3 +46,12 @@ public class Operations {
     public double cube(Double a) {
         return a * a * a;
     }
+
+    // Square root with negative number check
+    public double squareRoot(Double a) {
+        if (a < 0) {
+            throw new ArithmeticException("Cannot take the square root of a negative number.");
+        }
+        return Math.sqrt(a);
+    }
+}
